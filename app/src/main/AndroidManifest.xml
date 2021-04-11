@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KutyuSearch">
         <activity
+            android:name=".About"
+            android:label="@string/title_activity_about"
+            android:theme="@style/Theme.KutyuSearch.NoActionBar"></activity>
+        <activity
             android:name=".DogDescription"
             android:label="@string/title_activity_dog_description"
-            android:theme="@style/Theme.KutyuSearch.NoActionBar"></activity>
+            android:theme="@style/Theme.KutyuSearch.NoActionBar" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
