@@ -10,15 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KutyuSearch">
         <activity
-            android:name=".About"
+            android:name=".ui.about.About"
             android:label="@string/title_activity_about"
             android:theme="@style/Theme.KutyuSearch.NoActionBar"></activity>
         <activity
-            android:name=".DogDescription"
+            android:name=".ui.description.DogDescription"
             android:label="@string/title_activity_dog_description"
             android:theme="@style/Theme.KutyuSearch.NoActionBar" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.breads.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.KutyuSearch.NoActionBar">
             <intent-filter>

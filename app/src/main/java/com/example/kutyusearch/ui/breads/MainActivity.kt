@@ -1,10 +1,12 @@
-package com.example.kutyusearch
+package com.example.kutyusearch.ui.breads
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
+import com.example.kutyusearch.R
+import com.example.kutyusearch.ui.description.DogDescription
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 
