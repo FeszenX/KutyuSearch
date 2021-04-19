@@ -8,6 +8,7 @@ data class DogBreadResult(
     val id: String?,
     val life_span: String?,
     val name: String?,
+    val origin: String?,
     val natural: String?,
     val rare: String?,
     val reference_image_id: String?,
@@ -15,6 +16,6 @@ data class DogBreadResult(
     val short_legs: String?,
     val suppressed_tail: String?,
     val temperament: String?,
-    val weight_imperial: String?,
-    val wikipedia_url: String?
+    val wikipedia_url: String?,
+    val image: ImageResult?
 )
