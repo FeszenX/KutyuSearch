@@ -50,10 +50,15 @@ class DogDescription : AppCompatActivity(), DescriptionScreen {
     }
 
     override fun showDescription(bread: DogBreadResult) {
-        breadNameText.text = bread.name
-        breadTemperamentText.text = bread.temperament
-        breadLifeSpanText.text = bread.life_span
-        breadOriginText.text = bread.origin
+        val nameText = "Name: " + bread.name
+        val temperamentText = "Temperament: " + bread.temperament
+        val lifespanText = "Lifespan: " + bread.life_span + " years"
+        val originText = "Origin: " + bread.origin
+
+        breadNameText.text = nameText
+        breadTemperamentText.text = temperamentText
+        breadLifeSpanText.text = lifespanText
+        breadOriginText.text = originText
 
         DescriptionPresenter.queryBreedPicture(bread.image?.url)
     }
