@@ -13,4 +13,5 @@
     <string name="title_activity_about">About</string>
     <string name="about_label">About</string>
     <string name="about_text">Ez egy Android alkalmazás, ami segít abban, hogy jobban megismerd a körülötted élő kis kedvencek fajtáit.</string>
+    <string name="crashButtonLabel">Crash the application</string>
 </resources>
